@@ -4,7 +4,7 @@ pragma solidity ^0.8.2;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
-contract PIVN is ERC20, ERC20Burnable{
+contract KIC is ERC20, ERC20Burnable{
     string private constant _name = "KIC TOKEN";
     string private constant _symbol = "KIC";
     uint64 private constant INITIAL_SUPPLY = 100000000000;
